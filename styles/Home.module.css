@@ -63,9 +63,17 @@
 
 @media screen and (min-width: 1921px) {
   .videobg {
+    width: 100vw;
+    /* margin: 0 auto;
+    height: 100%; */
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .videobg {
     width: auto;
-    margin: 0 auto;
-    height: 100%;
+    /* margin: 0 auto; */
+    height: 100vh;
   }
 }
 
