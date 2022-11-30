@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       
-        <video autoPlay playsinline loop muted className={styles.videobg}>
+        <video autoPlay playsInline loop muted className={styles.videobg}>
             <source src="https://www.datocms-assets.com/26125/1669813896-bgdesktop.mp4" type='video/mp4'/>
         </video>
 
