@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className={styles.wrapper}>
           <img className={styles.coverimage} src='https://www.datocms-assets.com/26125/1669814297-lxscover.png' />
-          <a href="#">
+          <a href="https://muzyka.sklep.pl/lxs" target="_blank" rel="noreferrer">
             <img src="https://www.datocms-assets.com/26125/1669814626-orderbutton1-edited.png" />
           </a>
         </div>
