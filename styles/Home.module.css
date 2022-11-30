@@ -75,5 +75,9 @@
     /* margin: 0 auto; */
     height: 100vh;
   }
+
+  .coverimage  {
+    width: 70%;
+  }
 }
 
