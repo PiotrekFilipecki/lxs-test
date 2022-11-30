@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {isMobile} from 'react-device-detect';
 
+
 const VideoTrigger = () => {
   if(!isMobile) {
     return <source src="https://www.datocms-assets.com/26125/1669813896-bgdesktop.mp4" type='video/mp4'/>
@@ -21,12 +22,12 @@ export default function Home() {
       </Head>
 
       
-        <video autoPlay playsInline loop muted className={styles.videobg}>
+        {/* <video autoPlay playsInline loop muted className={styles.videobg}>
           <VideoTrigger />
 
           {!isMobile }
             
-        </video>
+        </video> */}
 
         {/* <div className={styles.wrapper}>
           <img className={styles.coverimage} src='https://www.datocms-assets.com/26125/1669814297-lxscover.png' />
