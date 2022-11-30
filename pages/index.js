@@ -22,19 +22,19 @@ export default function Home() {
       </Head>
 
       
-        {/* <video autoPlay playsInline loop muted className={styles.videobg}>
+        <video autoPlay playsInline loop muted className={styles.videobg}>
           <VideoTrigger />
 
           {!isMobile }
             
-        </video> */}
+        </video>
 
-        {/* <div className={styles.wrapper}>
+        <div className={styles.wrapper}>
           <img className={styles.coverimage} src='https://www.datocms-assets.com/26125/1669814297-lxscover.png' />
           <a href="#">
             <img src="https://www.datocms-assets.com/26125/1669814626-orderbutton1-edited.png" />
           </a>
-        </div> */}
+        </div>
 
     </div>
   )
