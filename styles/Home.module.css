@@ -27,10 +27,18 @@
   height: 100%;
 }
 
-.wrapper img {
+.coverimage  {
   width: 100%;
 }
 
 .wrapper a img {
   margin-top: 3rem;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .coverimage {
+      width: 70%;
+      max-width: 320px;
+    }
 }
