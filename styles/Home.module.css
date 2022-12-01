@@ -57,6 +57,7 @@
 @media screen and (min-width: 1360px) {
   .videobg {
     object-fit: fill;
+    width: 100%;
   }
 }
 
@@ -76,7 +77,7 @@
 
 @media screen and (min-width: 1921px) {
   .videobg {
-    width: 100vw;
+    width: 100%;
     /* margin: 0 auto;
     height: 100%; */
   }
@@ -91,6 +92,13 @@
 
   .coverimage  {
     width: 70%;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .coverimage  {
+    width: 70%;
+    max-width: 420px;
   }
 }
 

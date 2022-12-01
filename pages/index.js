@@ -18,6 +18,12 @@ export default function Home() {
       <Head>
         <title>LXS Land</title>
         <meta name="description" content="LXS Land" />
+        <meta property="og:title" content="LXS Land" />
+<meta property="og:site_name" content="LXS Land" />
+<meta property="og:url" content="lxs.land" />
+<meta property="og:description" content="LXS Land" />
+<meta property="og:type" content="" />
+<meta property="og:image" content="https://www.datocms-assets.com/26125/1669814297-lxscover.png"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -25,7 +31,7 @@ export default function Home() {
         <video autoPlay playsInline loop muted className={styles.videobg}>
           <VideoTrigger />
 
-          {!isMobile }
+
             
         </video>
 
