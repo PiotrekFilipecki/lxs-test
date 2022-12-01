@@ -17,6 +17,7 @@
   z-index: -1;
   /* width: 100%; */
   /* height: 100vh; */
+  object-fit: fill;
 }
 
 .wrapper {
@@ -71,7 +72,7 @@
 
 @media screen and (min-width: 2500px) {
   .videobg {
-    width: auto;
+    width: 100%;
     /* margin: 0 auto; */
     height: 100vh;
   }
